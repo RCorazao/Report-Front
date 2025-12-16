@@ -294,6 +294,23 @@ onMounted(() => {
     .reports-table {
         min-width: 500px;
     }
+
+    .btn-logout {
+        position: absolute;
+        top: 1.1rem;
+        right: 1rem;
+        padding: 0.5rem 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        cursor: pointer;
+        width: 90px;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
 }
 
 .loading,
